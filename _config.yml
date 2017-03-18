@@ -1,0 +1,29 @@
+name: Online Portfolio
+author: Paul Cielo
+baseurl: ""
+description: Paul Cielo portfolio site
+github: http://www.github.com/plouie21
+linkedin: https://www.linkedin.com/in/paul-cielo-598466b9
+email: plouie21[at]gmail.com
+location: Sacramento
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
